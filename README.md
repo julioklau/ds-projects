@@ -4,13 +4,20 @@ This repository contains a collection of independent data science projects focus
 
 ## 📂 Projects
 
-**Work in progress**
+| Module           | Description                                              | Status     |
+|------------------|----------------------------------------------------------|------------|
+| [`peru_news_topic_classifier`](./peru_news_topic_classifier/README.md) | Classify news into topics | 🚧 In progress |
 
-## 🛠️ Tech Stack
-- Python (pandas, scikit-learn, seaborn)
+## 🧰 Tools & Stack
+- Python 3.12
 - Jupyter Notebooks
-- matplotlib / plotly
+
+## 🔄 Status
+This repository is under active development.  
+New experiments, models and utilities are added iteratively.
 
 ## 📌 Notes
 Each project is located in its own subfolder with a README and instructions.
 
+## ⚖️ License
+This project is licensed under the [MIT License](./LICENSE).
