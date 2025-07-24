@@ -1,0 +1,7 @@
+{
+  "health": "health OR medicine OR hospital OR disease OR mental health OR vaccine OR healthcare",
+  "entertainment": "movie OR tv OR music OR celebrity OR film OR entertainment OR showbiz OR pop culture",
+  "politics": "election OR government OR policy OR president OR congress OR parliament OR democracy",
+  "sports": "football OR soccer OR olympics OR sports OR nba OR tennis OR world cup OR athlete",
+  "business": "business OR finance OR market OR economy OR inflation OR investment OR stock OR gdp"
+}

@@ -1,0 +1,30 @@
+{
+  "newsapi": {
+    "health": { "date": "2025-07-01", "page": 1 },
+    "entertainment": { "date": "2025-07-01", "page": 1 },
+    "politics": { "date": "2025-07-01", "page": 1 },
+    "sports": { "date": "2025-07-01", "page": 1 },
+    "business": { "date": "2025-07-01", "page": 1 }
+  },
+  "fcsapi": {
+    "health": { "date": "2025-07-01", "page": 1 },
+    "entertainment": { "date": "2025-07-01", "page": 1 },
+    "politics": { "date": "2025-07-01", "page": 1 },
+    "sports": { "date": "2025-07-01", "page": 1 },
+    "business": { "date": "2025-07-01", "page": 1 }
+  },
+  "newsdata": {
+    "health": { "date": "2025-07-01", "page": 1 },
+    "entertainment": { "date": "2025-07-01", "page": 1 },
+    "politics": { "date": "2025-07-01", "page": 1 },
+    "sports": { "date": "2025-07-01", "page": 1 },
+    "business": { "date": "2025-07-01", "page": 1 }
+  },
+  "worldnewsapi": {
+    "health": { "date": "2025-07-01", "page": 1 },
+    "entertainment": { "date": "2025-07-01", "page": 1 },
+    "politics": { "date": "2025-07-01", "page": 1 },
+    "sports": { "date": "2025-07-01", "page": 1 },
+    "business": { "date": "2025-07-01", "page": 1 }
+  }
+}
