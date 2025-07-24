@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "news-topic-classifier"
+version = "0.1.0"
+description = "A classifier for categorizing news by topic"
+authors = ["Julio Lau <julioklau97@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "news_topic_classifier", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dateutil = "^2.9.0.post0"
+
+[tool.poetry.scripts]
+news-classifier = "news_topic_classifier.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
