@@ -1,0 +1,17 @@
+intermediate_articles:
+  type: pandas.JSONDataset
+  filepath: data/02_intermediate/merged.jsonl
+  load_args:
+    lines: true
+  save_args:
+    lines: true
+    orient: records
+
+processed_articles:
+  type: pandas.JSONDataset
+  filepath: data/03_processed/final_news_dataset.jsonl
+  load_args:
+    lines: true
+  save_args:
+    lines: true
+    orient: records
