@@ -1,0 +1,113 @@
+{
+    "newsapi": {
+        "status": {
+            "health": {
+                "date": "2025-07-17",
+                "current_amount": 10266,
+                "expected": 10000
+            },
+            "entertainment": {
+                "date": "2025-07-25",
+                "current_amount": 18000,
+                "expected": 10000
+            },
+            "politics": {
+                "date": "2025-07-17",
+                "current_amount": 10586,
+                "expected": 10000
+            },
+            "sports": {
+                "date": "2025-07-16",
+                "current_amount": 10595,
+                "expected": 10000
+            },
+            "business": {
+                "date": "2025-07-15",
+                "current_amount": 10781,
+                "expected": 10000
+            }
+        },
+        "finished_category": [
+            "entertainment",
+            "sports",
+            "health",
+            "business",
+            "politics"
+        ],
+        "stop_date": "2025-07-27"
+    },
+    "fcsapi": {
+        "status": {
+            "health": {
+                "date": "",
+                "current_amount": 2000,
+                "expected": 2000
+            },
+            "entertainment": {
+                "date": "",
+                "current_amount": 1000,
+                "expected": 1000
+            },
+            "politics": {
+                "date": "",
+                "current_amount": 6000,
+                "expected": 6000
+            },
+            "sports": {
+                "date": "",
+                "current_amount": 200,
+                "expected": 200
+            },
+            "business": {
+                "date": "",
+                "current_amount": 3000,
+                "expected": 3000
+            }
+        },
+        "finished_category": [
+            "health",
+            "entertainment",
+            "politics",
+            "sports",
+            "business"
+        ],
+        "stop_date": ""
+    },
+    "worldnews": {
+        "status": {
+            "health": {
+                "date": "2025-07-01",
+                "current_amount": 294,
+                "expected": 200
+            },
+            "entertainment": {
+                "date": "2025-07-01",
+                "current_amount": 2069,
+                "expected": 2000
+            },
+            "politics": {
+                "date": "2025-07-01",
+                "current_amount": 2069,
+                "expected": 2000
+            },
+            "sports": {
+                "date": "2025-07-01",
+                "current_amount": 2069,
+                "expected": 2000
+            },
+            "business": {
+                "date": "2025-07-01",
+                "current_amount": 2069,
+                "expected": 2000
+            }
+        },
+        "finished_category": [
+            "business",
+            "entertainment",
+            "politics",
+            "health",
+            "sports"
+        ],
+        "stop_date": ""
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "health": ["health", "medicine", "hospital", "disease", "mental health", "vaccine", "healthcare"],
+  "entertainment": ["movie", "tv", "music", "celebrity", "film", "entertainment", "showbiz", "pop culture"],
+  "politics": ["election", "government", "policy", "president", "congress", "parliament", "democracy"],
+  "sports": ["football", "soccer", "olympics", "sports", "nba", "tennis", "world cup", "athlete"],
+  "business": ["business", "finance", "market", "economy", "inflation", "investment", "stock", "gdp"]
+}

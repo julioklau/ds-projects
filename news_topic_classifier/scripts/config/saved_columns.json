@@ -1,0 +1,19 @@
+{
+    "newsapi": {
+        "title": "title",
+        "description": "summary",
+        "publishedAt": "published_dt"
+    },
+    "fcsapi": {
+        "title": "title",
+        "description": "summary",
+        "publishedAt": "published_dt",
+        "category": "target"
+    },
+    "worldnews": {
+        "title": "title",
+        "summary": "summary",
+        "publish_date": "published_dt",
+        "category": "target"
+    }
+}
