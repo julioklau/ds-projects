@@ -11,29 +11,29 @@ API_URL = os.getenv('worldnews_url')
 API_KEY = os.getenv('worldnews_apikey')
 SOURCE = "worldnews"
 PAGE_SIZE = 100
+HEADERS = {'x-api-key': API_KEY}
 
 def fetch_by_category_paginated(
     offset: int, 
     category: str,
     from_date: str
 ) -> List[Dict]:
-    
+
     params = {
-        "api-key": API_KEY,
-        "category": category,
+        "categories": category,
         "language": "en",
         "number": PAGE_SIZE,
         "offset": offset,
-        "earliest-publish-date": from_date,
+        # "earliest-publish-date": from_date,
         "sort":"publish-time",
-        "sort_direction":"desc"
+        "sort-direction":"DESC"
     }
 
     print(f"📄 Fetched {params['offset']}")
     data, headers = fetch_news(
         api_url = API_URL,
         params = params,
-        headers = {}
+        headers = HEADERS
     )
 
     if not data or headers['X-API-Quota-Left'] == 0:

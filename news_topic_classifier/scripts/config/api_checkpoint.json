@@ -2,9 +2,9 @@
     "newsapi": {
         "status": {
             "health": {
-                "date": "2025-07-17",
-                "current_amount": 10266,
-                "expected": 10000
+                "date": "2025-07-29",
+                "current_amount": 17875,
+                "expected": 17500
             },
             "entertainment": {
                 "date": "2025-07-25",
@@ -17,24 +17,24 @@
                 "expected": 10000
             },
             "sports": {
-                "date": "2025-07-16",
-                "current_amount": 10595,
-                "expected": 10000
+                "date": "2025-07-25",
+                "current_amount": 16948,
+                "expected": 16500
             },
             "business": {
-                "date": "2025-07-15",
-                "current_amount": 10781,
-                "expected": 10000
+                "date": "2025-07-17",
+                "current_amount": 12353,
+                "expected": 12000
             }
         },
         "finished_category": [
             "entertainment",
-            "sports",
+            "politics",
             "health",
             "business",
-            "politics"
+            "sports"
         ],
-        "stop_date": "2025-07-27"
+        "stop_date": "2025-07-31"
     },
     "fcsapi": {
         "status": {
@@ -77,36 +77,36 @@
         "status": {
             "health": {
                 "date": "2025-07-01",
-                "current_amount": 294,
+                "current_amount": 200,
                 "expected": 200
             },
             "entertainment": {
                 "date": "2025-07-01",
-                "current_amount": 2069,
+                "current_amount": 2000,
                 "expected": 2000
             },
             "politics": {
                 "date": "2025-07-01",
-                "current_amount": 2069,
+                "current_amount": 2000,
                 "expected": 2000
             },
             "sports": {
                 "date": "2025-07-01",
-                "current_amount": 2069,
+                "current_amount": 2000,
                 "expected": 2000
             },
             "business": {
                 "date": "2025-07-01",
-                "current_amount": 2069,
+                "current_amount": 2000,
                 "expected": 2000
             }
         },
         "finished_category": [
-            "business",
             "entertainment",
             "politics",
+            "sports",
             "health",
-            "sports"
+            "business"
         ],
         "stop_date": ""
     }

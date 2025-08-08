@@ -12,7 +12,7 @@ def main():
         Merge all .jsonl files in a folder into a single JSON Lines file.
     """
     input_folder = get_project_root()/"data"/RAW_FOLDER
-    output_file = get_project_root()/"data"/INTERMEDIATE_FOLDER/"merged.jsonl"
+    output_file = get_project_root()/"data"/INTERMEDIATE_FOLDER/"merged_and_deduplicated.jsonl"
     articles = []
     for path in Path(input_folder).glob("*.jsonl"):
         with open(path, "r", encoding = "utf-8") as f:
@@ -24,7 +24,9 @@ def main():
     
     df = pd.DataFrame(articles)
     if CRITERIA in df.columns:
-        df = df.drop_duplicates(subset = [CRITERIA])
+        df['summary_len'] = df['summary'].str.len()
+        df.sort_values(by = ['title', 'summary_len'], ascending = [True, False])
+        df = df.drop_duplicates(subset = [CRITERIA], keep = 'first')
         articles = df.to_dict(orient = "records")
     save_to_jsonl(articles, Path(output_file).name, Path(output_file).parent)
 
